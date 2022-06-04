@@ -1,0 +1,963 @@
+body{
+    font-family: sans-serif;
+    background:#fff;   
+}
+.mobilebg{
+    display: none;
+}
+.mobilebtg{
+    display: none;
+}
+.mobileyour{
+    display: none;
+}
+.mobilefooter{
+    display: none;
+}
+.mobilebottom{
+    display: none;
+}
+h1{
+    color:hsl(192, 100%, 9%) ; 
+}
+p{
+    color:hsl(216, 27%, 27%) ;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+
+}
+.logo img{
+    width: 200px;
+}
+.button button{
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-color:hsl(322, 100%, 66%) ;
+    color:hsl(322, 100%, 66%) ;
+    background: white;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 150px;
+    text-align: center;
+}
+.content h1{
+    font-size: 50px;
+}
+.content p{
+    font-size: 20px;
+}
+.content-img img{
+    width: 65%;
+    margin-top: 90px;
+}
+.content #button{
+    padding: 20Px 60PX;
+    border-radius: 30PX;
+    background-color:hsl(322, 100%, 66%) ;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 350px;
+    margin-top: 100px;
+}
+.text1 .num{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color:hsl(192, 100%, 9%) ;
+
+}
+.text1 .word{
+     color:hsl(209, 38%, 18%) ;
+     font-size: 20px;
+     padding-left: 10px;
+     margin-top: 15px;
+}
+.text2 .num{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color:hsl(192, 100%, 9%) ;
+
+}
+.text2 .word{
+     color:hsl(209, 38%, 18%) ;
+     font-size: 20px;
+     padding-left: 30px;
+     margin-top: 15px;
+}
+.text1 img{
+    width: 20%;
+}
+.text2 img{
+    width: 15%;
+}
+
+.growbg{
+    width: 87%;
+    position: absolute;
+    left: 88px;
+    top: 1780px;
+}
+
+.growbtg{
+    width: 87%;
+    position: absolute;
+    left: 88px;
+    top: 2340px;
+}
+
+.grow-content{
+    background-color:hsl(207, 100%, 98%) ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 0 80px;
+    margin-top:300px;
+    
+}
+.grow-img img{
+    width: 90%;
+    padding-left: 0px;
+    
+}
+.grow{
+    margin-top: 150px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.grow p{
+    font-size: 15px;
+}
+.flowing{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 0 80px;
+    margin-top:300px;
+
+}
+.flowing-img img{
+    width: 90%;
+    padding-left:100px;
+}
+.flowing-text{
+    margin-top: 100px;
+    padding-left:90px;
+    font-size: 20px;
+}
+.flowing-text p{
+    font-size:15px ;
+}
+
+.yourbg{
+    width: 87%;
+    position: absolute;
+    left: 88px;
+    top: 3200px;
+}
+
+.yourbgb{
+    width: 87%;
+    position: absolute;
+    left: 88px;
+    top: 3720px;
+}
+
+.your-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 0 80px;
+    margin-top:300px;
+    background-color:hsl(207, 100%, 98%) ;
+    
+}
+.your-img img{
+    width: 90%;
+    padding-left:0px;
+    
+}
+.your-user{
+    margin-top: 100px;
+    padding-left: 80px;
+    font-size: 20px;
+}
+.your-user p{
+    font-size: 15px;
+}
+.txt{
+    margin-top:300px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.textt{
+    font-size: 20px;
+}
+.btn button{
+    padding: 20Px 60PX;
+    border-radius: 30PX;
+    background-color:hsl(322, 100%, 66%) ;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.footerbg{
+    width: 87%;
+    position: absolute;
+    left: 88px;
+    top: 4395px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:hsl(192, 100%, 9%);
+    justify-items: center;
+    margin: 0 80px;
+    margin-bottom: 0px;
+    margin-top:300px;
+}
+.hudd .icon img{
+    width: 30px;  
+    margin: 0 15px;
+    margin-left: -10px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.hudd h1{
+    font-family: sans-serif;
+    font-weight: 1000;
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.hudd h1 img{
+    width: 40px;
+}
+.hudd p{
+    color: white;
+    font-size: 13px;
+    margin-top: 30px;
+    line-height: 22px;
+    font-size: 13px;
+}
+.hudd .pp{
+    color: white;
+    font-size: 15px;
+    
+}
+.news{
+    margin-bottom: 0;
+}
+.news h1{
+    color: white;
+    margin-top: 110px;
+    font-size: 20px;
+}
+.news p{
+    color: white;
+    font-size: 13px;
+    line-height: 22px;
+}
+.news input{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.sub{
+    word-spacing: 20px;
+}
+.news button{
+    background-color:hsl(322, 100%, 66%) ;
+    color: white;
+    cursor: pointer;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+
+@media(max-width:1200px){
+    .growbg{
+        width: 85%;
+        position: absolute;
+        left: 90px;
+        top: 1730px;
+    }
+    
+    .growbtg{
+        width: 85%;
+        position: absolute;
+        left: 90px;
+        top: 2200px;
+    }
+    .yourbgb{
+        position: absolute;
+        top: 3490px;
+        width: 85%;
+        left: 90px;
+    }
+    .yourbg{
+        position: absolute;
+        top: 3050px;
+        width: 85%;
+        left: 90px;
+    }
+    .footerbg{
+        position: absolute;
+        top: 4182px;
+        left: 90px;
+        width: 85%;
+    }
+}
+
+
+
+@media(max-width:768px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 70px;
+    
+    }
+    .logo img{
+        width: 200px;
+    }
+    .button button{
+        border-radius: 20px;
+        font-size: 20px;
+        padding: 5px 20px;
+        border-color:hsl(322, 100%, 66%) ;
+        color:hsl(322, 100%, 66%) ;
+        background: white;
+        cursor: pointer;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-top: 150px;
+        text-align: center;
+    }
+    .content{
+        margin-top: 80px;
+    }
+    .content h1{
+        font-size: 50px;
+    }
+    .content p{
+        font-size: 20px;
+    }
+    .content-img img{
+        width: 65%;
+        margin-top: 120px;
+    }
+    .content #button{
+        padding: 20Px 60PX;
+        border-radius: 30PX;
+        background-color:hsl(322, 100%, 66%) ;
+        color: white;
+        font-size: 20px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    .text{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0px 250px;
+        margin-top: 100px;
+    }
+    .text1 .num{
+        font-size: 80px;
+        font-weight: 700;
+        font-family: sans-serif;
+        color:hsl(192, 100%, 9%) ;
+    
+    }
+    .text1 .word{
+         color:hsl(209, 38%, 18%) ;
+         font-size: 20px;
+         padding-left: 10px;
+         margin-top: 15px;
+         margin-bottom: 50px;
+    }
+    .text2 .num{
+        font-size: 80px;
+        font-weight: 700;
+        font-family: sans-serif;
+        color:hsl(192, 100%, 9%) ;
+    
+    }
+    .text2 .word{
+         color:hsl(209, 38%, 18%) ;
+         font-size: 20px;
+         padding-left: 30px;
+         margin-top: 15px;
+    }
+    .text1 img{
+        width: 20%;
+    }
+    .text2 img{
+        width: 15%;
+    }
+    
+    .growbg{
+        width: 98%;
+        position: absolute;
+        left: 5px;
+        top: 1780px;
+    }
+    
+    .growbtg{
+        width: 98%;
+        position: absolute;
+        left: 8px;
+        top: 2650px;
+    }
+    
+    .grow-content{
+        display: grid;
+        grid-template-rows: 800px;
+        justify-items: center;
+        margin: 0 0px;
+        margin-top:130px;
+        text-align: center;
+        align-items: center;
+    }
+    .grow-img img{
+        width: 70%; 
+        position: absolute;
+        left: 100px;
+        top: 1900px;
+    }
+    .grow{
+        margin-top: 250px;
+        padding-left: 20px;
+        font-size: 20px;
+        position: absolute;
+        left: 70px;
+        top: 2140px;
+    }
+    .grow p{
+        font-size: 20px;
+    }
+    .flowing{
+        display: grid;
+        grid-template-rows:900px ;
+        justify-items: center;
+        margin: 0 0px;
+        margin-top:200px;
+        text-align: center;
+    
+    }
+    .flowing-img img{
+        width: 70%;
+        position: absolute;
+        top: 2900px;
+        left: -0px;
+    }
+    .flowing-text{
+        margin-top: 350px;
+        padding-left:0px;
+        font-size: 20px;
+        position: absolute;
+        left: 100px;
+        top: 3000px;
+        
+    }
+    .flowing-text p{
+        font-size:20px ;
+        margin-bottom: 90px;
+    }
+    .flowing-text h1{
+        font-size: 30px;
+    }
+    .your-content{
+        display: grid;
+        grid-template-columns: 400px ;
+        justify-items: center;
+        margin: 0 0px;
+        margin-top:100px;
+        background-color:hsl(207, 100%, 98%);
+        text-align: center;
+        
+    }
+    .your-img img{
+        width: 70%;
+        position: absolute;
+        left: 90px;
+        top: 3900px;
+        
+    }
+    .yourbgb{
+        position: absolute;
+        top: 4750px;
+        width: 98%;
+        left: 5px;
+    }
+    .yourbg{
+        position: absolute;
+        top: 3785px;
+        width: 98%;
+        left: 5px;
+    }
+    .your-user{
+        margin-top: 800px;
+        padding-left: 0px;
+        font-size: 20px;
+        margin-bottom: 100px;
+    }
+    .your-user h1{
+      position: absolute;
+      left: 280px;
+      top: 4400px;
+    }
+    .your-user p{
+        font-size: 20px;
+        position: absolute;
+        left: 90px;
+        top: 4480px;
+    }
+    .txt{
+        margin-top:400px;
+    }
+    .textt{
+        font-size: 30px;
+    }
+    .btn button{
+        padding: 10Px 30px;
+        border-radius: 30px;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 500px 500px;
+        justify-items: center;
+        margin: 0 0px;
+        margin-bottom: 0px;
+        margin-top:300px;
+        background-color:hsl(192, 100%, 9%);
+       
+    }
+    .footerbg{
+        position: absolute;
+        top: 5682px;
+        left: 7px;
+        width: 98%;
+    }
+    .hudd{
+        margin-top: 300px;
+        margin-left: 50px;
+    }
+    .hudd .icon img{
+        width: 20px;  
+        margin: 0 15px;
+        margin-left: -10px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    .hudd h1{
+        font-family: sans-serif;
+        font-weight: 1000;
+        font-size: 40px;
+        margin-top: 200px;
+    }
+    .hudd h1 img{
+        width: 40px;
+    }
+    .hudd p{
+        margin-top: 30px;
+        line-height: 25px;
+        font-size: 21px;
+        font-family: sans-serif;
+    }
+    .hudd .pp{
+        font-size: 19px;
+        
+    }
+    .news{
+        margin-bottom: 0;
+        margin-left: -860px;
+    }
+    .news h1{
+        color: white;
+        font-size: 50px;
+    }
+    .news p{
+        color: white;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .news input{
+        height: 40px;
+        width: 380px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .sub{
+        word-spacing: 20px;
+    }
+    .news button{
+        padding: 12px 30px;
+        border-radius: 5px;
+        font-size: 20px;
+        margin-top: 20px;
+       position: absolute;
+       left: 270px;
+       top: 6150px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:425px){
+    body{
+       /* background:grey ; */
+    }
+    .mobilebg{
+      display: inline;
+      width: 95.5%;
+      position: absolute;
+      top: 1220px;
+    }
+    .mobilebtg{
+      display: inline;
+      width: 95.5%;
+      position: absolute;
+      top: 1800px;
+    }
+    .mobileyour{
+      display: inline;
+      width: 95%;
+      position: absolute;
+      top: 2380px;
+    }
+    .mobilebottom{
+      display: inline;
+      width: 95.5%;
+      position: absolute;
+      top: 2877px;
+    }
+    .mobilefooter{
+      display: inline;
+      width: 95.5%;
+      position:absolute;
+      top: 3400px;
+    }
+    nav{
+        padding: 0px 10px;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .button button{
+        border-radius: 10px;
+        font-size: 10px;
+        padding: 5px 15px;
+    }
+.content-img img{
+    width: 80%;
+    margin-top: 90px;
+}
+    .content h1{
+        font-size: 26px;
+        text-align: center;
+        padding:0px 25px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+    .content #button{
+        padding: 10Px 30PX;
+        border-radius: 30PX;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .text{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0px 140px;
+        margin-top: 100px;
+    }
+    .text1 .num{
+        font-size: 45px;
+    
+    }
+    .text1 .word{
+         font-size: 12px;
+         padding-left: 10px;
+         margin-top: 5px;
+    }
+    .text2 .num{
+        font-size: 45px;
+    
+    }
+    .text2 .word{
+         font-size: 13px;
+         padding-left: 20px;
+         margin-top: 5px;
+         margin-bottom: 30px;
+    }
+    .text1 img{
+        width: 15%;
+    }
+    .text2 img{
+        width: 15%;
+        margin-top: 20px;
+    }
+     .growbg{
+         display: none;
+     }  
+     .growbtg{
+         display: none;
+     }    
+.yourbg{
+    display: none;
+}
+.yourbgb{
+    display: none;
+}
+.footerbg{
+    display: none;
+}
+.grow-content{
+    display: grid;
+    grid-template-rows: 500px;
+    justify-items: center;
+    margin: 0 0px;
+    margin-top:130px;
+    text-align: center;
+    align-items: center;
+}
+.grow-img img{
+    width: 70%; 
+    position: absolute;
+    left: 60px;
+    top: 1400px;
+}
+.grow{
+    margin-top: 250px;
+    padding-left: 20px;
+    font-size: 10px;
+    position: absolute;
+    left: 50px;
+    top: 1400px;
+}
+.grow p{
+    font-size: 10px;
+}
+.flowing{
+    display: grid;
+    grid-template-rows:400px ;
+    justify-items: center;
+    margin: 0 0px;
+    margin-top:150px;
+    text-align: center;
+
+}
+.flowing-img img{
+    width: 70%;
+    position: absolute;
+    top: 1900px;
+    left: -45px;
+}
+.flowing-text{
+    margin-top: 0px;
+    padding-left:0px;
+    font-size: 15px;
+    position: absolute;
+    top: 2150px;
+    left: 50px;
+    
+}
+.flowing-text p{
+    font-size:10px ;
+}
+.flowing-text h1{
+    font-size: 15px;
+}
+.your-content{
+    display: grid;
+    grid-template-columns: 500px ;
+    justify-items: center;
+    margin: 0 0px;
+    margin-top:100px;
+    background-color:hsl(207, 100%, 98%);
+    text-align: center;
+    
+}
+.your-img img{
+    width: 70%;
+    position: absolute;
+    left: 50px;
+    top: 2450px;
+    
+}
+.your-user{
+    margin-top: 300px;
+    padding-left: 0px;
+    font-size: 8px;
+    margin-bottom: 100px;
+}
+.your-user h1{
+  position: absolute;
+  left: 150px;
+  top: 2690px;
+}
+.your-user p{
+    font-size: 10px;
+    position: absolute;
+    left: 60px;
+    top: 2730px;
+}
+.txt{
+    margin-top:200px;
+}
+.textt{
+    font-size: 13px;
+}
+.btn button{
+    padding: 10Px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-items: center;
+    margin: 0 0px;
+    margin-bottom: 0px;
+    margin-top:200px;
+    background-color:hsl(192, 100%, 9%);
+   
+}
+.hudd{
+    margin-top: 300px;
+    margin-left: -160px;
+}
+.hudd .icon img{
+    width: 20px;  
+    margin: 0 15px;
+    margin-left: -10px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.hudd h1{
+    font-family: sans-serif;
+    font-weight: 1000;
+    font-size: 40px;
+    margin-top: 200px;
+}
+.hudd h1 img{
+    width: 40px;
+}
+.hudd p{
+    margin-top: 30px;
+    line-height: 22px;
+    font-size: 14px;
+}
+.hudd .pp{
+    font-size: 13px;
+    
+}
+.news{
+    margin-bottom: 0;
+    margin-left: -1150px;
+}
+.news h1{
+    color: white;
+    font-size: 20px;
+}
+.news p{
+    color: white;
+    font-size: 15px;
+    line-height: 22px;
+}
+.news input{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.sub{
+    word-spacing: 20px;
+}
+.news button{
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 20px;
+   position: absolute;
+   left: 195px;
+   top: 3750px;
+}
+
+
+    
+}
+
+
+@media(max-width:375px){
+    .text{
+        padding: 0px 120px;
+    }
+    .grow{
+        position: absolute;
+        left: 20px;
+        top: 1400px;
+    }
+    .flowing-text{
+        position: absolute;
+        left: 30px;
+        
+    }
+    .your-user h1{
+        left: 130px;
+        top: 2650px;
+      }
+      .your-user p{
+          left: 40px;
+          top: 2680px;
+      }
+      .mobilefooter{
+        top: 3380px;
+      }
+      .mobilebottom{
+          top: 2850px;
+      }
+}
+
